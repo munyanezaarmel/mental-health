@@ -1,0 +1,73 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-image:url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#cccccc;
+    font-family: 'Poppins', sans-serif;
+ 
+  }
+  
+  div.elem-group {
+    margin: 20px 0;
+  }
+  .home{
+    font-size: 1.25em;
+    text-decoration: none;
+    color:#ffca00;
+  }
+  div.elem-group.inlined {
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #ffca00;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: none;
+    color: #fff;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }

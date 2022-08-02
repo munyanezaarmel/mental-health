@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.bounce {
+  font-size: 40px;
+  animation: bounce 1.5s infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-10px);
+  }
+  40% {
+    transform: translateY(-12px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* ---------------footer section----------------- */
+footer {
+  margin-top: -30px;
+  max-width: 100%;
+  margin: auto;
+  padding: 40px 0;
+  background-color: #333;
+}
+.footer-container {
+  width: 90%;
+  padding: 20px;
+}
+.footer-container div {
+  display: inline-block;
+}
+.nav-footer {
+  float: left;
+  width: 50%;
+}
+.social-footer {
+  width: 50%;
+}
+.navig {
+  list-style: none;
+}
+.navig li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.social-footer ul {
+  float: right;
+  margin-right: 10%;
+}
+#copy-right {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* link */
+a:link,
+a:visited {
+  color: #e67e22;
+  transition: all 0.5s;
+}
+/* ------------------form section-------------------------------- */
+.form-section {
+  padding: 30px 0px 30px 30px;
+  background-color: #f4f4f4;
+}
+
+.form-container {
+  width: 40%;
+  margin: auto;
+  padding: 10px 20px;
+  box-shadow: 0 4px 15px #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+}
+textarea {
+  height: 80px;
+}
+label {
+  display: block;
+  margin: 10px 0;
+}
+button {
+  font-size: 110%;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px;
+  color: #fff;
+  background-color: #e67e22;
+  border-radius: 5px;
+  border: none;
+}
+button:hover {
+  background-color: #dd6c02;
+}
+/* ------------------about html--------------------- */
+.history-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./images/pixel.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.history-content {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.head2-div {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 145%;
+  margin-bottom: 30px;
+}
+.button-update {
+  background-color: hsl(120, 73%, 73%);
+  border-radius: 8px !important;
+  padding: 7px;
+  color: white;
+  text-decoration: none;
+}
+.button-delete{
+	background-color:#c93a3a;
+	border-radius: 8px !important;
+	padding: 7px;
+	color: white;
+  text-decoration: none;
+}
